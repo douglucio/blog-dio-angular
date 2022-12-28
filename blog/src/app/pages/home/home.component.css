@@ -1,0 +1,19 @@
+.articles {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articles__others {
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+header {
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+}
