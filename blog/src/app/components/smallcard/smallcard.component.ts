@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-smallcard',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./smallcard.component.css']
 })
 export class SmallcardComponent implements OnInit {
+  @Input()
+  photoCard:string = "";
+  @Input()
+  cardTitle:string = "";
 
   constructor() { }
 

@@ -1,10 +1,10 @@
 .container__smallcard {
-    width: 300px;
+    width: 400px;
+    height: 115px;
 
 }
 
-.container__smallcard__content {
-    
+.container__smallcard__content{
     display: flex;
     flex-direction: row;
 }
@@ -15,8 +15,8 @@
     align-items: center;
     margin-left: 10px;
     margin-top: 10px;
-    width: 100px;
-    min-width: 100px;
+    width: 230px;
+    min-width: 230px;
 }
 
 .separator {
